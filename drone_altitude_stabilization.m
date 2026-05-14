@@ -123,14 +123,6 @@ else
     disp('Settling Time exceeds limit ✗ — adjust Ki');
 end
 
-%% Interactive PID Tuner
-% Opens visual tuning interface with sliders
-% Slider 1 (Response Time) — controls how fast drone reaches target
-% Slider 2 (Transient Behaviour) — controls how much drone wobbles
-% Move sliders until response meets specifications
-% Then click Export to save new Kp Ki Kd values
-pidTuner(G, 'PID')
-
 %% Step 3: Disturbance Simulation at t = 5 seconds
 % Simulating real world wind disturbance to test robustness
 % t = timeline from 0 to 20 seconds
