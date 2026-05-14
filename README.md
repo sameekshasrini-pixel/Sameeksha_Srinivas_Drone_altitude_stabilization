@@ -1,9 +1,9 @@
 # drone-altitude-stabilization
 PID Control System for Dron Altitude Stabilization using MATLAB and Simulink
 
-# 🚁 Drone Altitude Stabilization Using PID Control
+# Drone Altitude Stabilization Using PID Control
 
-## 📌 About the Project
+## About the Project
 
 Drones operating in real environments face constant challenges 
 from external disturbances like wind, turbulence, and sensor noise. 
@@ -22,7 +22,7 @@ The goal is to make the drone:
 
 ---
 
-## 🎯 Problem Statement
+##  Problem Statement
 
 The vertical dynamics of the drone are approximated by the 
 following transfer function:
@@ -44,7 +44,7 @@ Where:
 
 ---
 
-## 🔧 Dependencies
+##  Dependencies
 
 ### Software Required:
 | Software | Version | Purpose |
@@ -68,7 +68,7 @@ This lists all installed toolboxes.
 
 ---
 
-## 💡 Our Approach
+##  Our Approach
 
 ### Step 1 — Mathematical Modelling
 We started by modelling the drone as a second order transfer 
